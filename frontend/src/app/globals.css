@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon: #b4f733;
+  --color-neon-light: #c8ff3d;
+  --color-neon-dark: #9ad828;
+  --color-dark-900: #050505;
+  --color-dark-800: #0d0d11;
+  --color-dark-700: #15151b;
+  --color-dark-600: #22222c;
+  --color-dark-border: #272732;
+}
+
+:root {
+  --background: #050505;
+  --foreground: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom glow and utility effects */
+.neon-glow {
+  text-shadow: 0 0 25px rgba(180, 247, 51, 0.45);
+}
+
+.box-neon-glow {
+  box-shadow: 0 0 30px rgba(180, 247, 51, 0.15);
+}
+
+.box-neon-glow-hover:hover {
+  box-shadow: 0 0 35px rgba(180, 247, 51, 0.3);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #22222c;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b4f733;
+}
