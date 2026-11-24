@@ -47,7 +47,7 @@ export default function LocationsHubPage() {
     '@type': 'CollectionPage',
     name: 'Vape Shop Bangalore Store Locations & Express Hubs',
     description: 'Find your nearest express vape delivery zone in Bangalore with 45 to 120 minutes courier service.',
-    url: 'https://vapeshopbangalore.com/locations',
+    url: 'https://www.vapeshopsbangalore.com/locations',
     breadcrumb: {
       '@type': 'BreadcrumbList',
       itemListElement: [
@@ -55,13 +55,13 @@ export default function LocationsHubPage() {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://vapeshopbangalore.com',
+          item: 'https://www.vapeshopsbangalore.com',
         },
         {
           '@type': 'ListItem',
           position: 2,
           name: 'Locations',
-          item: 'https://vapeshopbangalore.com/locations',
+          item: 'https://www.vapeshopsbangalore.com/locations',
         },
       ],
     },
@@ -69,7 +69,7 @@ export default function LocationsHubPage() {
       '@type': 'LocalBusiness',
       position: idx + 1,
       name: `Vape Shop ${loc.name}`,
-      url: `https://vapeshopbangalore.com/locations/${loc.slug}`,
+      url: `https://www.vapeshopsbangalore.com/locations/${loc.slug}`,
       telephone: '+91-7404563603',
       priceRange: '₹₹',
       geo: {

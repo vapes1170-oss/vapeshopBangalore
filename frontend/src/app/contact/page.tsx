@@ -29,11 +29,11 @@ export default function ContactPage() {
     '@type': 'ContactPage',
     name: 'Contact Vape Shop Bangalore',
     description: 'Get in touch with Vape Shop Bangalore for fast same-day vape delivery and verified products.',
-    url: 'https://vapeshopbangalore.com/contact',
+    url: 'https://www.vapeshopsbangalore.com/contact',
     mainEntity: {
       '@type': 'LocalBusiness',
       name: 'Vape Shop Bangalore',
-      image: 'https://vapeshopbangalore.com/logo.png',
+      image: 'https://www.vapeshopsbangalore.com/logo.png',
       telephone: '+917404563603',
       priceRange: '₹₹',
       address: {

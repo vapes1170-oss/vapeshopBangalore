@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://vapeshopbangalore.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.vapeshopsbangalore.com';
 
   return {
     title: `${loc.title} | Vape Shop Bangalore`,
@@ -94,7 +94,7 @@ export default async function LocationPage({ params }: Props) {
         '@type': 'LocalBusiness',
         name: `Vape Shop Bangalore - ${loc.name}`,
         description: loc.metaDesc,
-        url: `https://vapeshopbangalore.com/locations/${loc.slug}`,
+        url: `https://www.vapeshopsbangalore.com/locations/${loc.slug}`,
         telephone: '+917404563603',
         priceRange: '₹₹',
         address: {

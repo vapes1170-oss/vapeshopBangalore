@@ -103,7 +103,7 @@ export default function HomePage() {
         itemListElement: products.slice(0, 15).map((p, idx) => ({
           '@type': 'ListItem',
           position: idx + 1,
-          url: `https://vapeshopbangalore.com/products/${p.slug}`,
+          url: `https://www.vapeshopsbangalore.com/products/${p.slug}`,
           name: p.name,
           image: p.image,
           offers: {

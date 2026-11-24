@@ -9,7 +9,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://vapeshopbangalore.com"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://www.vapeshopsbangalore.com"),
   title: {
     default: "Vape Shop Bangalore | Bangalore's #1 Most Trusted Vape Destination",
     template: "%s | Vape Shop Bangalore",
@@ -100,10 +100,10 @@ export default function RootLayout({
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://vapeshopbangalore.com/#organization",
+        "@id": "https://www.vapeshopsbangalore.com/#organization",
         "name": "Vape Shop Bangalore",
-        "url": "https://vapeshopbangalore.com",
-        "logo": "https://vapeshopbangalore.com/icon-512.png",
+        "url": "https://www.vapeshopsbangalore.com",
+        "logo": "https://www.vapeshopsbangalore.com/icon-512.png",
         "description": "Bangalore's most trusted destination for authentic vapes, pod systems and accessories.",
         "sameAs": [
           "https://instagram.com/vapeshopbangalore",
@@ -112,9 +112,9 @@ export default function RootLayout({
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://vapeshopbangalore.com/#localbusiness",
+        "@id": "https://www.vapeshopsbangalore.com/#localbusiness",
         "name": "Vape Shop Bangalore",
-        "image": "https://vapeshopbangalore.com/Bangalore%E2%80%99s%20Neon%20Vape%20Destination.png",
+        "image": "https://www.vapeshopsbangalore.com/Bangalore%E2%80%99s%20Neon%20Vape%20Destination.png",
         "telephone": "+91-7404563603",
         "priceRange": "₹₹",
         "address": {
@@ -158,15 +158,15 @@ export default function RootLayout({
       },
       {
         "@type": "WebSite",
-        "@id": "https://vapeshopbangalore.com/#website",
-        "url": "https://vapeshopbangalore.com",
+        "@id": "https://www.vapeshopsbangalore.com/#website",
+        "url": "https://www.vapeshopsbangalore.com",
         "name": "Vape Shop Bangalore",
         "publisher": {
-          "@id": "https://vapeshopbangalore.com/#organization"
+          "@id": "https://www.vapeshopsbangalore.com/#organization"
         },
         "potentialAction": {
           "@type": "SearchAction",
-          "target": "https://vapeshopbangalore.com/search?q={search_term_string}",
+          "target": "https://www.vapeshopsbangalore.com/search?q={search_term_string}",
           "query-input": "required name=search_term_string"
         }
       }

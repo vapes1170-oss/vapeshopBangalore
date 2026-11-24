@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://vapeshopbangalore.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.vapeshopsbangalore.com';
 
   return {
     title: `${post.title} | Vape Shop Bangalore`,
@@ -90,12 +90,12 @@ export default async function BlogPostPage({ params }: Props) {
       name: 'Vape Shop Bangalore',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://vapeshopbangalore.com/logo.png',
+        url: 'https://www.vapeshopsbangalore.com/logo.png',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://vapeshopbangalore.com/blog/${post.slug}`,
+      '@id': `https://www.vapeshopsbangalore.com/blog/${post.slug}`,
     },
   };
 

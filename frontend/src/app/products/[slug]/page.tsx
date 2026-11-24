@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://vapeshopbangalore.com';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.vapeshopsbangalore.com';
   const discountPercent = Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100);
 
   return {
@@ -103,7 +103,7 @@ export default async function ProductDetailPage({ params }: Props) {
     notFound();
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://vapeshopbangalore.com';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.vapeshopsbangalore.com';
   const discountAmount = product.originalPrice - product.price;
   const discountPercent = Math.round((discountAmount / product.originalPrice) * 100);
 

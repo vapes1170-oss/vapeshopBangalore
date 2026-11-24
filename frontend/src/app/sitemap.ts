@@ -4,27 +4,15 @@ import { blogs } from '@/data/blogs';
 import { bangaloreLocations } from '@/data/locations';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://vapeshopbangalore.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.vapeshopsbangalore.com';
   const currentDate = new Date().toISOString();
 
-  // Static core routes
+  // Static core routes (only real, existing pages)
   const staticRoutes = [
     '',
+    '/locations',
     '/blog',
     '/contact',
-    '/locations',
-    '/disposables',
-    '/pod-systems',
-    '/e-liquids',
-    '/starter-kits',
-    '/accessories',
-    '/bangalore-express-delivery',
-    '/vape-shop-koramangala',
-    '/vape-shop-indiranagar',
-    '/vape-shop-whitefield',
-    '/vape-shop-hsr-layout',
-    '/faq',
-    '/about-us',
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: currentDate,
