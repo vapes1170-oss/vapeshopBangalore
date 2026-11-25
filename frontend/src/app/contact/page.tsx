@@ -34,7 +34,7 @@ export default function ContactPage() {
       '@type': 'LocalBusiness',
       name: 'Vape Shop Bangalore',
       image: 'https://www.vapeshopsbangalore.com/logo.png',
-      telephone: '+917404563603',
+      telephone: '+916265321741',
       priceRange: '₹₹',
       address: {
         '@type': 'PostalAddress',
@@ -109,7 +109,7 @@ export default function ContactPage() {
               <span>Delivering to <strong>Bangalore</strong></span>
             </div>
             <a
-              href="https://wa.me/917404563603?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20want%20to%20order"
+              href="https://wa.me/916265321741?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20want%20to%20order"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#b4f733] hover:bg-[#c6ff00] text-black font-bold px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-lg text-xs transition flex items-center gap-1.5 shadow-[0_0_15px_rgba(180,247,51,0.25)] hover:shadow-[0_0_25px_rgba(180,247,51,0.4)]"
@@ -148,14 +148,14 @@ export default function ContactPage() {
                 Call or WhatsApp
               </h2>
               <p className="text-sm sm:text-base text-zinc-300 font-semibold mt-2">
-                +91 74045 63603
+                +91 62653 21741
               </p>
             </div>
 
             <div className="flex flex-wrap items-center gap-3 mt-6 sm:mt-8">
               {/* Neon Lime WhatsApp Button */}
               <a
-                href="https://wa.me/917404563603?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20have%20an%20inquiry"
+                href="https://wa.me/916265321741?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20have%20an%20inquiry"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#b4f733] hover:bg-[#c8ff3d] text-black font-extrabold text-xs sm:text-sm px-5 py-2.5 sm:px-6 sm:py-3 rounded-full flex items-center gap-2 transition duration-200 shadow-[0_0_15px_rgba(180,247,51,0.3)] active:scale-95"
@@ -166,7 +166,7 @@ export default function ContactPage() {
 
               {/* Dark Rounded Call Now Button */}
               <a
-                href="tel:+917404563603"
+                href="tel:+916265321741"
                 className="bg-[#14141e] hover:bg-[#1c1c2b] text-white border border-[#272738] hover:border-[#b4f733] font-bold text-xs sm:text-sm px-5 py-2.5 sm:px-6 sm:py-3 rounded-full flex items-center gap-2 transition duration-200 active:scale-95"
               >
                 <PhoneCall className="w-4 h-4 text-[#b4f733]" />
@@ -246,7 +246,7 @@ export default function ContactPage() {
       {/* Floating WhatsApp Action Button */}
       <aside aria-label="WhatsApp Quick Contact" className="fixed bottom-5 right-5 z-50 flex items-center group">
         <a
-          href="https://wa.me/917404563603?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20want%20to%20order"
+          href="https://wa.me/916265321741?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20want%20to%20order"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Order on WhatsApp"

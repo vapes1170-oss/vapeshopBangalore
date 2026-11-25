@@ -174,7 +174,7 @@ export default function HomePage() {
               <span>Delivering to <strong>Bangalore</strong></span>
             </div>
             <a
-              href="https://wa.me/917404563603?text=Hi%2C%20I%20want%20to%20order%20vapes%20in%20Bangalore"
+              href="https://wa.me/916265321741?text=Hi%2C%20I%20want%20to%20order%20vapes%20in%20Bangalore"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#b4f733] hover:bg-[#c6ff00] text-black font-bold px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-lg text-xs transition flex items-center gap-1.5 shadow-[0_0_15px_rgba(180,247,51,0.25)] hover:shadow-[0_0_25px_rgba(180,247,51,0.4)]"
@@ -274,7 +274,7 @@ export default function HomePage() {
                 <ChevronRight className="w-3 h-3 text-[#b4f733]" />
               </Link>
               <a
-                href="https://wa.me/917404563603?text=Hi%2C%20check%20delivery%20time%20for%20my%20Bangalore%20pincode"
+                href="https://wa.me/916265321741?text=Hi%2C%20check%20delivery%20time%20for%20my%20Bangalore%20pincode"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#b4f733] hover:bg-[#c6ff00] text-black text-[11px] sm:text-xs font-bold px-3.5 py-2 sm:px-4 sm:py-2 rounded-lg transition whitespace-nowrap shadow-[0_0_15px_rgba(180,247,51,0.25)]"
@@ -410,7 +410,7 @@ export default function HomePage() {
 
                   {/* Full-Width Lime Neon Pill: Chat on WhatsApp */}
                   <a
-                    href={`https://wa.me/917404563603?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I want to order ${p.name} for ₹${p.price.toLocaleString('en-IN')}`)}`}
+                    href={`https://wa.me/916265321741?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I want to order ${p.name} for ₹${p.price.toLocaleString('en-IN')}`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full bg-[#b4f733] hover:bg-[#c8ff3d] text-black font-extrabold text-[11px] sm:text-sm py-2 sm:py-2.5 px-2 rounded-full flex items-center justify-center gap-1.5 transition duration-200 shadow-md hover:shadow-[0_0_20px_rgba(180,247,51,0.4)] active:scale-95 whitespace-nowrap"
@@ -601,7 +601,7 @@ export default function HomePage() {
           </p>
           <div className="mt-5 flex justify-center">
             <a
-              href="https://wa.me/917404563603?text=Hello%20Vape%20Shop%20Bangalore%2C%20I%20would%20like%20to%20order"
+              href="https://wa.me/916265321741?text=Hello%20Vape%20Shop%20Bangalore%2C%20I%20would%20like%20to%20order"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#b4f733] hover:bg-[#c6ff00] text-black font-extrabold text-xs sm:text-sm px-6 py-2.5 sm:px-7 sm:py-3 rounded-lg transition shadow-[0_0_25px_rgba(180,247,51,0.3)] flex items-center gap-2"
@@ -618,7 +618,7 @@ export default function HomePage() {
       {/* Floating WhatsApp Action Button (Right Bottom) */}
       <aside aria-label="WhatsApp Quick Contact" className="fixed bottom-5 right-5 z-50 flex items-center group">
         <a
-          href="https://wa.me/917404563603?text=Hi%2C%20I%20want%20to%20order%20vapes%20in%20Bangalore"
+          href="https://wa.me/916265321741?text=Hi%2C%20I%20want%20to%20order%20vapes%20in%20Bangalore"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Order on WhatsApp"

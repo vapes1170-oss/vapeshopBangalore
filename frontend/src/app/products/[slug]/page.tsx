@@ -244,7 +244,7 @@ export default async function ProductDetailPage({ params }: Props) {
 
           <div className="flex items-center gap-2.5">
             <a
-              href={`https://wa.me/917404563603?text=${whatsappMessage}`}
+              href={`https://wa.me/916265321741?text=${whatsappMessage}`}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#b4f733] hover:bg-[#c6ff00] text-black font-bold px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-lg text-xs transition flex items-center gap-1.5 shadow-[0_0_15px_rgba(180,247,51,0.25)] hover:shadow-[0_0_25px_rgba(180,247,51,0.4)]"
@@ -384,7 +384,7 @@ export default async function ProductDetailPage({ params }: Props) {
               {/* Action Buttons */}
               <div className="mt-6 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
                 <a
-                  href={`https://wa.me/917404563603?text=${whatsappMessage}`}
+                  href={`https://wa.me/916265321741?text=${whatsappMessage}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 bg-[#b4f733] hover:bg-[#c8ff3d] text-black font-black text-sm sm:text-base py-3.5 px-6 rounded-xl transition duration-200 flex items-center justify-center gap-2 shadow-[0_0_25px_rgba(180,247,51,0.35)]"
@@ -517,7 +517,7 @@ export default async function ProductDetailPage({ params }: Props) {
 
                     {/* Chat on WhatsApp Button */}
                     <a
-                      href={`https://wa.me/917404563603?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I want to order ${p.name} for ₹${p.price.toLocaleString('en-IN')}`)}`}
+                      href={`https://wa.me/916265321741?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I want to order ${p.name} for ₹${p.price.toLocaleString('en-IN')}`)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-full bg-[#b4f733] hover:bg-[#c8ff3d] text-black font-extrabold text-[11px] sm:text-sm py-2 sm:py-2.5 px-2 rounded-full flex items-center justify-center gap-1.5 transition duration-200 shadow-md hover:shadow-[0_0_20px_rgba(180,247,51,0.4)] active:scale-95 whitespace-nowrap"
@@ -539,7 +539,7 @@ export default async function ProductDetailPage({ params }: Props) {
       {/* Floating WhatsApp Action Button */}
       <aside aria-label="WhatsApp Quick Contact" className="fixed bottom-5 right-5 z-50 flex items-center group">
         <a
-          href={`https://wa.me/917404563603?text=${whatsappMessage}`}
+          href={`https://wa.me/916265321741?text=${whatsappMessage}`}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Order on WhatsApp"

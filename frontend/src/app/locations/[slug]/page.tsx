@@ -95,7 +95,7 @@ export default async function LocationPage({ params }: Props) {
         name: `Vape Shop Bangalore - ${loc.name}`,
         description: loc.metaDesc,
         url: `https://www.vapeshopsbangalore.com/locations/${loc.slug}`,
-        telephone: '+917404563603',
+        telephone: '+916265321741',
         priceRange: '₹₹',
         address: {
           '@type': 'PostalAddress',
@@ -178,7 +178,7 @@ export default async function LocationPage({ params }: Props) {
               <span>Hub: <strong>{loc.name}</strong></span>
             </div>
             <a
-              href={`https://wa.me/917404563603?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I want express vape delivery in ${loc.name}`)}`}
+              href={`https://wa.me/916265321741?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I want express vape delivery in ${loc.name}`)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#b4f733] hover:bg-[#c8ff3d] text-black font-bold px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-lg text-xs transition flex items-center gap-1.5 shadow-[0_0_15px_rgba(180,247,51,0.25)] hover:shadow-[0_0_25px_rgba(180,247,51,0.4)]"
@@ -242,7 +242,7 @@ export default async function LocationPage({ params }: Props) {
             {/* Order on WhatsApp CTA */}
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <a
-                href={`https://wa.me/917404563603?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I want to place an order in ${loc.name}`)}`}
+                href={`https://wa.me/916265321741?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I want to place an order in ${loc.name}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#b4f733] hover:bg-[#c8ff3d] text-black font-extrabold text-xs sm:text-sm px-6 py-3 rounded-full flex items-center gap-2 transition duration-200 shadow-lg active:scale-95"
@@ -353,7 +353,7 @@ export default async function LocationPage({ params }: Props) {
                   </Link>
 
                   <a
-                    href={`https://wa.me/917404563603?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I want to order ${p.name} in ${loc.name}`)}`}
+                    href={`https://wa.me/916265321741?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I want to order ${p.name} in ${loc.name}`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full bg-[#b4f733] hover:bg-[#c8ff3d] text-black font-extrabold text-[11px] sm:text-sm py-2 sm:py-2.5 px-2 rounded-full flex items-center justify-center gap-1.5 transition duration-200 shadow-md hover:shadow-[0_0_20px_rgba(180,247,51,0.4)] active:scale-95 whitespace-nowrap"
@@ -409,7 +409,7 @@ export default async function LocationPage({ params }: Props) {
       {/* Floating WhatsApp Action Button */}
       <aside aria-label="WhatsApp Quick Contact" className="fixed bottom-5 right-5 z-50 flex items-center group">
         <a
-          href={`https://wa.me/917404563603?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I want express vape delivery in ${loc.name}`)}`}
+          href={`https://wa.me/916265321741?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I want express vape delivery in ${loc.name}`)}`}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Order on WhatsApp"

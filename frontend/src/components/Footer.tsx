@@ -89,7 +89,7 @@ export default function Footer() {
           </div>
 
           <a
-            href="https://wa.me/917404563603?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20am%20looking%20for%20a%20product%20recommendation"
+            href="https://wa.me/916265321741?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20am%20looking%20for%20a%20product%20recommendation"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#b4f733] hover:bg-[#c8ff3d] text-black font-extrabold text-xs px-5 py-2.5 rounded-full flex items-center gap-2 transition duration-200 shadow-[0_0_20px_rgba(180,247,51,0.3)] hover:shadow-[0_0_30px_rgba(180,247,51,0.5)] shrink-0 active:scale-95"

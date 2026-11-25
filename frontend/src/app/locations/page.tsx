@@ -70,7 +70,7 @@ export default function LocationsHubPage() {
       position: idx + 1,
       name: `Vape Shop ${loc.name}`,
       url: `https://www.vapeshopsbangalore.com/locations/${loc.slug}`,
-      telephone: '+91-7404563603',
+      telephone: '+91-6265321741',
       priceRange: '₹₹',
       geo: {
         '@type': 'GeoCoordinates',
@@ -116,7 +116,7 @@ export default function LocationsHubPage() {
           </nav>
 
           <a
-            href="https://wa.me/917404563603?text=Hi%2C%20check%20delivery%20time%20for%20my%20Bangalore%20pincode"
+            href="https://wa.me/916265321741?text=Hi%2C%20check%20delivery%20time%20for%20my%20Bangalore%20pincode"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#b4f733] hover:bg-[#c6ff00] text-black font-bold px-3 py-1.5 rounded-lg text-xs transition flex items-center gap-1.5 shadow-[0_0_15px_rgba(180,247,51,0.25)]"
@@ -227,7 +227,7 @@ export default function LocationsHubPage() {
                 </Link>
 
                 <a
-                  href={`https://wa.me/917404563603?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I need express vape delivery in ${loc.name}`)}`}
+                  href={`https://wa.me/916265321741?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I need express vape delivery in ${loc.name}`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#b4f733] hover:bg-[#c6ff00] text-black font-bold p-2 rounded-lg text-xs transition shadow-[0_0_10px_rgba(180,247,51,0.2)]"

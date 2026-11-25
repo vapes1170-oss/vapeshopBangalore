@@ -145,7 +145,7 @@ export default async function BlogPostPage({ params }: Props) {
               <span>Delivering to <strong>Bangalore</strong></span>
             </div>
             <a
-              href="https://wa.me/917404563603?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20want%20to%20order"
+              href="https://wa.me/916265321741?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20want%20to%20order"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#b4f733] hover:bg-[#c8ff3d] text-black font-bold px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-lg text-xs transition flex items-center gap-1.5 shadow-[0_0_15px_rgba(180,247,51,0.25)] hover:shadow-[0_0_25px_rgba(180,247,51,0.4)]"
@@ -242,7 +242,7 @@ export default async function BlogPostPage({ params }: Props) {
                 <span>Express 2-4 Hours Delivery across Bengaluru</span>
               </div>
               <a
-                href={`https://wa.me/917404563603?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I read your guide "${post.title}" and want to order`)}`}
+                href={`https://wa.me/916265321741?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I read your guide "${post.title}" and want to order`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#b4f733] hover:bg-[#c8ff3d] text-black font-extrabold text-xs px-5 py-2.5 rounded-full flex items-center gap-1.5 transition duration-200 shadow-md"
@@ -285,7 +285,7 @@ export default async function BlogPostPage({ params }: Props) {
       {/* Floating WhatsApp Action Button */}
       <aside aria-label="WhatsApp Quick Contact" className="fixed bottom-5 right-5 z-50 flex items-center group">
         <a
-          href="https://wa.me/917404563603?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20want%20to%20order"
+          href="https://wa.me/916265321741?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20want%20to%20order"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Order on WhatsApp"

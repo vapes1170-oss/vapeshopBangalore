@@ -115,7 +115,7 @@ export default function RootLayout({
         "@id": "https://www.vapeshopsbangalore.com/#localbusiness",
         "name": "Vape Shop Bangalore",
         "image": "https://www.vapeshopsbangalore.com/Bangalore%E2%80%99s%20Neon%20Vape%20Destination.png",
-        "telephone": "+91-7404563603",
+        "telephone": "+91-6265321741",
         "priceRange": "₹₹",
         "address": {
           "@type": "PostalAddress",

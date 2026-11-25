@@ -71,7 +71,7 @@ export default function BlogListingPage() {
               <span>Delivering to <strong>Bangalore</strong></span>
             </div>
             <a
-              href="https://wa.me/917404563603?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20want%20to%20order"
+              href="https://wa.me/916265321741?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20want%20to%20order"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#b4f733] hover:bg-[#c8ff3d] text-black font-bold px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-lg text-xs transition flex items-center gap-1.5 shadow-[0_0_15px_rgba(180,247,51,0.25)] hover:shadow-[0_0_25px_rgba(180,247,51,0.4)]"
@@ -184,7 +184,7 @@ export default function BlogListingPage() {
       {/* Floating WhatsApp Action Button */}
       <aside aria-label="WhatsApp Quick Contact" className="fixed bottom-5 right-5 z-50 flex items-center group">
         <a
-          href="https://wa.me/917404563603?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20want%20to%20order"
+          href="https://wa.me/916265321741?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20want%20to%20order"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Order on WhatsApp"

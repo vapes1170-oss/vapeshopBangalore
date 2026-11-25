@@ -288,7 +288,7 @@ export default function ReviewsSection() {
           </button>
 
           <a
-            href="https://wa.me/917404563603?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20would%20like%20to%20order"
+            href="https://wa.me/916265321741?text=Hi%20Vape%20Shop%20Bangalore%2C%20I%20would%20like%20to%20order"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#b4f733] hover:bg-[#c8ff3d] text-black font-extrabold text-xs px-6 py-2.5 rounded-full transition flex items-center gap-1.5 shadow-[0_0_15px_rgba(180,247,51,0.25)] active:scale-95"
