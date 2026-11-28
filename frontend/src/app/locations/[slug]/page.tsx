@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Footer from '@/components/Footer';
+import LocationProductCatalog from '@/components/LocationProductCatalog';
 import { products } from '@/data/products';
 import { 
   bangaloreLocations, 
@@ -83,10 +84,9 @@ export default async function LocationPage({ params }: Props) {
     notFound();
   }
 
-  const topProducts = products.slice(0, 4);
   const otherLocations = bangaloreLocations.filter((l) => l.slug !== loc.slug);
 
-  // LocalBusiness & FAQ Schema for maximum Google SERP rich results
+  // LocalBusiness, ItemList & FAQ Schema for maximum Google SERP rich results
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -117,6 +117,23 @@ export default async function LocationPage({ params }: Props) {
           opens: '10:00',
           closes: '23:30',
         },
+      },
+      {
+        '@type': 'ItemList',
+        name: `Authentic Vapes & Pods Delivery in ${loc.name}`,
+        itemListElement: products.map((p, idx) => ({
+          '@type': 'ListItem',
+          position: idx + 1,
+          url: `https://www.vapeshopsbangalore.com/products/${p.slug}`,
+          name: p.name,
+          image: p.image,
+          offers: {
+            '@type': 'Offer',
+            price: p.price,
+            priceCurrency: 'INR',
+            availability: 'https://schema.org/InStock',
+          },
+        })),
       },
       {
         '@type': 'FAQPage',
@@ -301,71 +318,8 @@ export default async function LocationPage({ params }: Props) {
           </div>
         </div>
 
-        {/* Popular Devices in this Neighborhood */}
-        <div className="mt-12">
-          <div className="flex items-end justify-between mb-6">
-            <div>
-              <span className="text-[10px] font-extrabold uppercase tracking-widest text-[#b4f733]">In Stock Bangalore</span>
-              <h2 className="text-xl sm:text-2xl font-black text-white mt-1">
-                Trending Vapes for Same-Day Delivery in {loc.name}
-              </h2>
-            </div>
-            <Link href="/#bestsellers" className="text-xs text-[#b4f733] font-bold hover:underline flex items-center">
-              View All 25 <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
-            </Link>
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-4 md:gap-5 w-full">
-            {topProducts.map((p) => {
-              const saveAmount = p.originalPrice - p.price;
-              return (
-                <div
-                  key={p.id}
-                  className="min-w-0 w-full bg-[#111114] border border-[#202026] hover:border-[#b4f733]/50 rounded-[18px] sm:rounded-[24px] p-2 sm:p-3 flex flex-col justify-between transition-all duration-300 group shadow-lg"
-                >
-                  <Link href={`/products/${p.slug}`} className="block min-w-0">
-                    <div className="relative w-full aspect-square rounded-[14px] sm:rounded-[18px] bg-black overflow-hidden border border-white/5">
-                      <span className="absolute top-2 left-2 z-10 bg-[#b4f733] text-black font-extrabold text-[9px] sm:text-xs px-2 py-0.5 sm:px-3 sm:py-1 rounded-full shadow-md whitespace-nowrap">
-                        Save ₹{saveAmount.toLocaleString('en-IN')}
-                      </span>
-                      <span className="absolute top-2 right-2 z-10 bg-black/75 backdrop-blur-md text-white font-bold text-[9px] sm:text-[11px] px-2 py-0.5 sm:px-3 sm:py-1 rounded-full border border-white/10 uppercase tracking-wide truncate max-w-[48%] shadow-sm">
-                        {p.brand}
-                      </span>
-                      <Image
-                        src={p.image}
-                        alt={p.name}
-                        fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-300"
-                        sizes="(max-width: 640px) 48vw, 25vw"
-                      />
-                    </div>
-                    <h3 className="text-xs sm:text-base font-extrabold text-white group-hover:text-[#b4f733] transition truncate mt-2 sm:mt-2.5 tracking-tight px-0.5">
-                      {p.name}
-                    </h3>
-                    <div className="flex items-baseline gap-1.5 sm:gap-2 mt-1 mb-2 sm:mb-3 px-0.5">
-                      <span className="text-base sm:text-2xl font-black text-[#b4f733]">
-                        ₹{p.price.toLocaleString('en-IN')}
-                      </span>
-                      <span className="text-[10px] sm:text-sm text-zinc-500 line-through font-medium">
-                        ₹{p.originalPrice.toLocaleString('en-IN')}
-                      </span>
-                    </div>
-                  </Link>
-
-                  <a
-                    href={`https://wa.me/916265321741?text=${encodeURIComponent(`Hi Vape Shop Bangalore, I want to order ${p.name} in ${loc.name}`)}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-full bg-[#b4f733] hover:bg-[#c8ff3d] text-black font-extrabold text-[11px] sm:text-sm py-2 sm:py-2.5 px-2 rounded-full flex items-center justify-center gap-1.5 transition duration-200 shadow-md hover:shadow-[0_0_20px_rgba(180,247,51,0.4)] active:scale-95 whitespace-nowrap"
-                  >
-                    <MessageCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0 fill-current" />
-                    <span className="truncate">Chat on WhatsApp</span>
-                  </a>
-                </div>
-              );
-            })}
-          </div>
-        </div>
+        {/* All Products in this Neighborhood Catalog */}
+        <LocationProductCatalog locationName={loc.name} />
 
         {/* Local FAQs */}
         <div className="mt-12 bg-[#09090e] border border-[#1a1a26] p-6 sm:p-8 rounded-2xl">

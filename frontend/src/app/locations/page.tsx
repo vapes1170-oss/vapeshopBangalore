@@ -2,6 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Footer from '@/components/Footer';
+import LocationProductCatalog from '@/components/LocationProductCatalog';
 import { bangaloreLocations } from '@/data/locations';
 import { 
   MapPin, 
@@ -238,6 +239,11 @@ export default function LocationsHubPage() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* All Products in Bangalore Catalog */}
+        <div className="mb-14">
+          <LocationProductCatalog locationName="Bangalore" />
         </div>
 
         {/* Benefits Grid */}
